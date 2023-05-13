@@ -1,44 +1,39 @@
---create database frizerskisalon;
-use frizerskisalon;
+use master;
 
-create table termin(
-	sifra int not null primary key identity (1,1),
-	datum datetime not null,
-	korisnik int not null,
-	usluga int not null,
-	djelatnica int not null
-);
+ drop database if exists organizacija;
 
-create table djelatnica(
-	 sifra  int not null primary key identity (1,1),
-	 ime varchar(50),
-	 prezime varchar(50)
+ go
+ create database organizacija;
+ go
+ use organizacija;
 
-);
+ create table udruga(
+	sifra int not null  primary key identity (1,1),
+	ime varchar(50)not null,
+	adresa varchar(50)not null,
+	radnovrijeme time not  null,
+	
+ );
 
-create table usluga(
-	sifra int not  null primary key identity (1,1),
-	cijena decimal(18,2),
-	naziv varchar(50),
-	);
-
-create table korisnik(
-	sifra int not null primary key identity (1,1),
-	ime varchar(50) not null,
-	prezime varchar(50) not null,
-	spol varchar(50)not null,
-	duzinakose int
-	);
-
-	create table zupanija(
-	sifra int primary key identity (1,1),
-	ime varchar(50),
+ create table sticenki(
+	sifra int not null  primary key identity (1,1),
+	ime varchar (50),
 	prezime varchar(50),
-	zupan int
+	zivotinja int not null,
+	prostor int not null,
+	udruga int not null
+ );
 
-);
+ create table prostor(
+	sifra int  not null primary key identity (1,1),
+	oznaka int not null,
+	sticenik int not null
+ );
 
+ create table zivotinja(
+	sifra int not null primary key identity (1,1),
+	ime varchar(50),
+	vrsta varchar(50)
+ );
 
-
-
-alter table termin add foreign key (korisnik) references korisnik(sifra);
+alter table prostor add foreign key (sticenik) references sticenik(sifra);
