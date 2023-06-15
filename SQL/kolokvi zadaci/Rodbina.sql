@@ -128,3 +128,12 @@ insert into punac(ogrlica,gustoca,hlace)
 values(3,19.0,'crne'),(3,19.0,'crne'),(3,19.0,'crne');
 
 update  cura set gustoca=15.77; 
+
+select * from zena;
+
+select kratkamajica,hlace from zena ;
+update  zena set hlace=hlace+ 'ana';
+
+select
+from svekar a inner join sestra_svekar b on b.svekar=a.sifra
+innerjoin sestra c on b.sestra=c.sifra
