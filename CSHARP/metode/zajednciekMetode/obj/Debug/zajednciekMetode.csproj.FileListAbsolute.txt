@@ -1,0 +1,2 @@
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\metode\zajednciekMetode\obj\Debug\zajednciekMetode.csproj.AssemblyReference.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\metode\zajednciekMetode\obj\Debug\zajednciekMetode.csproj.CoreCompileInputs.cache
