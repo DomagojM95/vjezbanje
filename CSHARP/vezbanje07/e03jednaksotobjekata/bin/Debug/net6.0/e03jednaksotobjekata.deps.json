@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "e03jednaksotobjekata/1.0.0": {
+        "runtime": {
+          "e03jednaksotobjekata.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "e03jednaksotobjekata/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
