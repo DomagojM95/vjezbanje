@@ -1,0 +1,15 @@
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\bin\Debug\net6.0\klase vjezbanje.exe
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\bin\Debug\net6.0\klase vjezbanje.deps.json
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\bin\Debug\net6.0\klase vjezbanje.runtimeconfig.json
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\bin\Debug\net6.0\klase vjezbanje.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\bin\Debug\net6.0\klase vjezbanje.pdb
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\obj\Debug\net6.0\klase vjezbanje.csproj.AssemblyReference.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\obj\Debug\net6.0\klase vjezbanje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\obj\Debug\net6.0\klase vjezbanje.AssemblyInfoInputs.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\obj\Debug\net6.0\klase vjezbanje.AssemblyInfo.cs
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\obj\Debug\net6.0\klase vjezbanje.csproj.CoreCompileInputs.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\obj\Debug\net6.0\klase vjezbanje.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\obj\Debug\net6.0\refint\klase vjezbanje.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\obj\Debug\net6.0\klase vjezbanje.pdb
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\obj\Debug\net6.0\klase vjezbanje.genruntimeconfig.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\ConsoleApp2\klase vjezbanje\obj\Debug\net6.0\ref\klase vjezbanje.dll
