@@ -32,5 +32,42 @@ namespace LJetniRad
             
             
         }
+
+        internal static int UcitajBrojRaspon(string poruka, string greska)
+        {
+            int b;
+            while (true) 
+            {
+                Console.WriteLine(poruka);
+                try
+                {
+                    b=int.Parse(Console.ReadLine());
+                    if (b > 0)
+                    {
+                        return b;
+                    }
+                    Console.Write(greska);
+                }
+                catch (Exception ex)
+                {
+                    Console.Write(greska);
+                }
+            }
+        }
+
+        internal static string UcitajString(string poruka, string greska)
+        {
+            string s = "";
+            while(true)
+            {
+                Console.WriteLine(poruka);
+                s = Console.ReadLine();
+                if(s!=null && s.Trim().Length>0)
+                {
+                    return s;
+                }
+                Console.WriteLine(greska);
+            }
+        }
     }
 }

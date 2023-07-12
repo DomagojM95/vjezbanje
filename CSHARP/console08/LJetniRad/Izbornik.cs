@@ -8,8 +8,12 @@ namespace LJetniRad
 {
     internal class Izbornik
     {
+        private ObradaSmjer ObradaSmjer;
+        private ObradaPolaznik ObradaPolaznik;
         public Izbornik() 
         {
+            ObradaSmjer = new ObradaSmjer();
+            ObradaPolaznik=new ObradaPolaznik();
             PozdravnaPoruka();
             PrikaziIzbornik();
 
@@ -32,11 +36,11 @@ namespace LJetniRad
             switch(Pomocno.UcitajBrojRaspon("odaberite stavku izborinika", "Odabir mora biti 1-4", 1, 4))
             {
                 case 1:
-                    Console.WriteLine("Rad sa smjerovima");
+                    ObradaSmjer.PrikaziIzbornik();
                     PrikaziIzbornik();
                     break;
                 case 2:
-                    Console.WriteLine("rad s polaznicima");
+                    ObradaPolaznik.PrikaziIzbornik();
                     PrikaziIzbornik();
                     break;
                 case 3:

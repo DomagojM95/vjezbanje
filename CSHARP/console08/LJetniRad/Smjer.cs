@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace LJetniRad
 {
-    internal class Smjer
+    internal class Smjer:Entitet
     {
-        public int Sifra { get; set; }
         public string Naziv { get; set; }
         public int Trajanje { get; set; }
         public decimal Cijena { get; set; }
