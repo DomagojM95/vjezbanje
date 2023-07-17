@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\38599\\OneDrive\\Documents\\SQL Server Management Studio\\vjezbanje\\CSHARP\\Bzvzvjezbanje01\\Bzvzvjezbanje\\Bzvzvjezbanje.csproj",
-      "projectName": "Bzvzvjezbanje",
-      "projectPath": "C:\\Users\\38599\\OneDrive\\Documents\\SQL Server Management Studio\\vjezbanje\\CSHARP\\Bzvzvjezbanje01\\Bzvzvjezbanje\\Bzvzvjezbanje.csproj",
+      "projectUniqueName": "C:\\Users\\38599\\OneDrive\\Documents\\SQL Server Management Studio\\vjezbanje\\CSHARP\\Bzvzvjezbanje01\\Bzvzvjezbanje\\tablica mnozenja.csproj",
+      "projectName": "tablica mnozenja",
+      "projectPath": "C:\\Users\\38599\\OneDrive\\Documents\\SQL Server Management Studio\\vjezbanje\\CSHARP\\Bzvzvjezbanje01\\Bzvzvjezbanje\\tablica mnozenja.csproj",
       "packagesPath": "C:\\Users\\38599\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\38599\\OneDrive\\Documents\\SQL Server Management Studio\\vjezbanje\\CSHARP\\Bzvzvjezbanje01\\Bzvzvjezbanje\\obj\\",
       "projectStyle": "PackageReference",
