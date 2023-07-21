@@ -1,0 +1,15 @@
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\bin\Debug\net6.0\tablica mnozenja.exe
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\bin\Debug\net6.0\tablica mnozenja.deps.json
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\bin\Debug\net6.0\tablica mnozenja.runtimeconfig.json
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\bin\Debug\net6.0\tablica mnozenja.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\bin\Debug\net6.0\tablica mnozenja.pdb
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\obj\Debug\net6.0\tablica mnozenja.csproj.AssemblyReference.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\obj\Debug\net6.0\tablica mnozenja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\obj\Debug\net6.0\tablica mnozenja.AssemblyInfoInputs.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\obj\Debug\net6.0\tablica mnozenja.AssemblyInfo.cs
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\obj\Debug\net6.0\tablica mnozenja.csproj.CoreCompileInputs.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\obj\Debug\net6.0\tablica mnozenja.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\obj\Debug\net6.0\refint\tablica mnozenja.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\obj\Debug\net6.0\tablica mnozenja.pdb
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\obj\Debug\net6.0\tablica mnozenja.genruntimeconfig.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\Bzvzvjezbanje01\Bzvzvjezbanje\obj\Debug\net6.0\ref\tablica mnozenja.dll
