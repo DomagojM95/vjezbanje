@@ -100,6 +100,7 @@
 
 
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.ExceptionServices;
 using System.Threading.Channels;
 
 //Console.Write("Unesite broj: ");
@@ -314,3 +315,113 @@ using System.Threading.Channels;
 
 
 //int[,] tablica= new int[3,3];
+
+
+//Console.WriteLine("1.***************");
+//for(int i =0; i < 10; i = i + 1)
+//{
+//    Console.WriteLine("osijek");
+//}
+
+
+
+//Console.WriteLine("3.**********");
+
+//for(int i=0; i < 10;i = i + 2)
+//{
+//    Console.WriteLine("CSHARP");
+//}
+
+//Console.WriteLine("4.***************");
+
+//for(int i=0 ; i < 10 ; i++)
+//{
+//    Console.WriteLine(i);
+//}
+
+//for (int i = 0; i < 10; i++)
+//{
+//    Console.WriteLine(i+1);
+//}
+
+//Console.WriteLine("7.***************");
+
+//int zbroj = 0;
+
+//for(int i=1; i<=100; i++)
+//{
+//    zbroj += i;
+//}
+//Console.WriteLine(zbroj);
+
+//Console.WriteLine("8.***************");
+
+//for(int i=0; i <= 57; i++) 
+//{
+//    if (i % 2 != 0)
+//    {
+//        Console.WriteLine(i);
+//    }
+//}
+
+//int[] niz = { 2, 2, 34, 54, 5, 6, 76, 7, 8, 7, 8 };
+
+//Console.WriteLine("10. *****************");
+//for (int i=0; i<niz.Length; i++)
+//{
+//    Console.Write(niz[i]+" ");
+//}
+
+
+//Console.WriteLine("11. *****************");
+
+
+//Console.WriteLine("Unesi koliko borjeva ces proveravati: ");
+//int brojeva=int.Parse(Console.ReadLine());
+//int broj;
+//int najveci=int.MinValue;
+
+//for(int i = 0; i < brojeva; i++)
+//{
+//    Console.Write("unesi {0}. broj: ",i+1);
+//    broj= int.Parse(Console.ReadLine());
+//    if (broj > najveci)
+//    {
+//        najveci=broj;
+//    }
+//}
+//Console.WriteLine("Najveci broj je {0}",najveci);
+
+
+Console.WriteLine("14. *****************");
+string s;
+for(int i = 1; i < 10; i++)
+{
+    for(int k = 1; k <= 10; k++)
+    {
+        s = "    " + i * k;
+        Console.Write(s[^4..]);
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine("Unesi dva cijela broja: ");
+Console.Write("prvi broj: ");
+int b1=int.Parse(Console.ReadLine());
+Console.Write("drugi broj: ");
+int b2 = int.Parse(Console.ReadLine());
+
+int manji= b1 < b2 ? b1 : b2;
+int veci = b1 > b2 ? b1 : b2;
+
+int zbroj = 0;
+for(int i=manji;i <= veci; i++)
+{
+    zbroj=i%2==0 ? zbroj +i :zbroj;
+    Console.WriteLine(zbroj);
+}
+
+
+
+
+
