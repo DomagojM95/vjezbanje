@@ -101,6 +101,7 @@
 
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.ExceptionServices;
+using System.Runtime.Serialization.Formatters;
 using System.Threading.Channels;
 
 //Console.Write("Unesite broj: ");
@@ -393,35 +394,276 @@ using System.Threading.Channels;
 //Console.WriteLine("Najveci broj je {0}",najveci);
 
 
-Console.WriteLine("14. *****************");
-string s;
-for(int i = 1; i < 10; i++)
+//Console.WriteLine("14. *****************");
+//string s;
+//for(int i = 1; i < 10; i++)
+//{
+//    for(int k = 1; k <= 10; k++)
+//    {
+//        s = "    " + i * k;
+//        Console.Write(s[^4..]);
+//    }
+//    Console.WriteLine();
+//}
+
+//Console.WriteLine("Unesi dva cijela broja: ");
+//Console.Write("prvi broj: ");
+//int b1=int.Parse(Console.ReadLine());
+//Console.Write("drugi broj: ");
+//int b2 = int.Parse(Console.ReadLine());
+
+//int manji= b1 < b2 ? b1 : b2;
+//int veci = b1 > b2 ? b1 : b2;
+
+//int zbroj = 0;
+//for(int i=manji;i <= veci; i++)
+//{
+//    zbroj=i%2==0 ? zbroj +i :zbroj;
+//    Console.WriteLine(zbroj);
+//}
+
+
+//while (true)
+//{
+//    break;
+//}
+
+
+
+//for(int i = 0; i < 0; i++)
+//{
+//    Console.WriteLine("Nisam ušao");
+//}
+
+
+
+//while (false)
+//{
+//    Console.WriteLine("nisam usao");
+//}
+
+
+//int b=0;
+
+
+////while (b < 10)
+////{
+////    Console.WriteLine(b++);
+
+////}
+
+//int t = 2;
+//b= 0;
+//while(t==2 && b < 10)
+//{
+//    Console.WriteLine(++b);
+//}
+
+
+//b = 0;
+//while (true)
+//{
+//    if (b == 2)
+//    {
+//        b++;
+//        continue;
+//    }
+//    if (b == 5)
+//    {
+//        break;
+
+//    }
+//    Console.WriteLine(b++);
+
+
+//}
+
+
+
+
+
+//while (true)
+//{
+//    Console.WriteLine("Unesi cijeli broj: ");
+//    b= int.Parse(Console.ReadLine());
+//    if(b>0 && b<= 10) 
+//    {
+//        break;
+//    }
+//    Console.WriteLine("Morate unjeti broj izmedu 1 i 10");
+//}
+//Console.WriteLine("uneseni broj je: {0}",b);
+
+//b = 2;
+//while (true)
+//{
+//    Console.WriteLine(b);
+//    b += 3;
+//    if (b > 97)
+//    {
+//        break;
+//    }
+//}
+
+//int b;
+//int zbroj = 0;
+//b = 0;
+//while (b++ <= 100)
+//{
+//    zbroj += b;
+//}
+//Console.WriteLine(zbroj);
+
+//do
+//{
+//    Console.WriteLine("01 Ušao u petlju");
+//} while (false);
+
+//int b1 = 0;
+
+//do
+//{
+//    Console.WriteLine("unesi Prvi broj: ");
+//     b1= int.Parse(Console.ReadLine());
+//    if(b1>=10 && b1 <= 20)
+//    {
+//        break;
+//    }
+//    Console.WriteLine("nisi unje trazeni broj");
+
+//} while (true);
+
+//int b2 = 0; 
+//do
+//{
+//    Console.WriteLine("unesi drugi broj: ");
+//    b1 = int.Parse(Console.ReadLine());
+//    if (b1 >= 10 && b1 <= 20)
+//    {
+//        break;
+//    }
+//    Console.WriteLine("nisi unje trazeni broj");
+
+//} while (true);
+
+
+//int manji = b1 < b2 ? b1 : b2;
+//int veci=b1>b2 ? b1 : b2;
+
+//int i = manji;
+//do
+//{
+//    if (i % 2 == 0)
+//    {
+//        Console.WriteLine(i);
+//    }
+
+//}while(++i<=veci);
+
+//int[] niz = { 2, 3, 3, 4, 5, 5 };
+
+
+
+
+
+//for(int i= 0; i<niz.Length; i++)
+//{
+//    Console.WriteLine(niz[i]);
+//}
+
+//Console.WriteLine("*******************");
+
+
+
+//for(int i=niz.Length-1; i>=0; i--)
+//{
+//    Console.WriteLine(niz[i]);
+//}
+
+//Console.WriteLine("kkkk*******************");
+
+//foreach(int k in niz)
+//{
+//    Console.WriteLine(k);
+//}
+
+
+
+int redaka = 5, stupaca = 5;
+
+
+Console.Write("unesi broj redova: ");
+redaka=int.Parse(Console.ReadLine());
+
+
+Console.WriteLine("unesi broj stupaca: ");
+stupaca = int.Parse(Console.ReadLine());
+
+
+int[,] matrica=new int[redaka, stupaca];
+
+
+
+
+for (int i = 0; i < redaka; i++)
 {
-    for(int k = 1; k <= 10; k++)
+    for (int j = 0; j < stupaca; j++)
     {
-        s = "    " + i * k;
-        Console.Write(s[^4..]);
+        Console.Write(matrica[i, j] + " ");
     }
     Console.WriteLine();
 }
 
-Console.WriteLine("Unesi dva cijela broja: ");
-Console.Write("prvi broj: ");
-int b1=int.Parse(Console.ReadLine());
-Console.Write("drugi broj: ");
-int b2 = int.Parse(Console.ReadLine());
+Console.WriteLine("***********************");
 
-int manji= b1 < b2 ? b1 : b2;
-int veci = b1 > b2 ? b1 : b2;
 
-int zbroj = 0;
-for(int i=manji;i <= veci; i++)
+
+int b = 1;
+
+
+//matrica[redaka -1, stupaca-1] = b++;
+//matrica[redaka-1, stupaca-2] = b++;
+//matrica[redaka - 1, stupaca - 3] = b++;
+//matrica[redaka - 1, stupaca - 4] = b++;
+//matrica[redaka - 1, stupaca - 5] = b++;
+
+for(int i = 1; i <= stupaca; i++)
 {
-    zbroj=i%2==0 ? zbroj +i :zbroj;
-    Console.WriteLine(zbroj);
+    matrica[redaka - 1, redaka - i] = b++;
 }
 
 
 
+for (int i = 0; i < redaka; i++)
+{
+    for (int j = 0; j < stupaca; j++)
+    {
+        Console.Write(matrica[i, j] + " ");
+    }
+    Console.WriteLine();
+
+}
+
+
+Console.WriteLine("***********************");
+
+
+for (int i = redaka - 2; i >= 0; i--)
+{
+    matrica[i,0]=b++;
+}
+
+
+
+for (int i = 0; i < redaka; i++)
+{
+    for (int j = 0; j < stupaca; j++)
+    {
+        Console.Write(matrica[i, j] + " ");
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine("***********************");
 
 
