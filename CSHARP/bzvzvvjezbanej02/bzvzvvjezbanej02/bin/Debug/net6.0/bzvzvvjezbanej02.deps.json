@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "bzvzvvjezbanej02/1.0.0": {
+        "dependencies": {
+          "zajednickemetode": "1.0.0"
+        },
         "runtime": {
           "bzvzvvjezbanej02.dll": {}
+        }
+      },
+      "zajednickemetode/1.0.0": {
+        "runtime": {
+          "zajednickemetode.dll": {}
         }
       }
     }
   },
   "libraries": {
     "bzvzvvjezbanej02/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "zajednickemetode/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

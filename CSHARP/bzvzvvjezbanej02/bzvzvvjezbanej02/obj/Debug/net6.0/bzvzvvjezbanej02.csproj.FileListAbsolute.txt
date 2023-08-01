@@ -13,3 +13,6 @@ C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\
 C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvvjezbanej02\bzvzvvjezbanej02\obj\Debug\net6.0\bzvzvvjezbanej02.pdb
 C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvvjezbanej02\bzvzvvjezbanej02\obj\Debug\net6.0\bzvzvvjezbanej02.genruntimeconfig.cache
 C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvvjezbanej02\bzvzvvjezbanej02\obj\Debug\net6.0\ref\bzvzvvjezbanej02.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvvjezbanej02\bzvzvvjezbanej02\bin\Debug\net6.0\zajednickemetode.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvvjezbanej02\bzvzvvjezbanej02\bin\Debug\net6.0\zajednickemetode.pdb
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvvjezbanej02\bzvzvvjezbanej02\obj\Debug\net6.0\bzvzvvjezbanej02.csproj.CopyComplete

@@ -76,4 +76,6 @@ t[2, 4] = 7;
 
 Metode.IspisiMatricu(t);
 
-//stao na predavanju 28.06, 49 minuta
+Console.WriteLine(Metode.faktorijel(5));
+
+

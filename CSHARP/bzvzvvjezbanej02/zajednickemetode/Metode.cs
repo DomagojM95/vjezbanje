@@ -3,7 +3,7 @@ using System.Data;
 
 namespace bzvzvvjezbanej02
 {
-    internal class Metode
+    public class Metode
     {
 
         public void ispis()
@@ -45,5 +45,15 @@ namespace bzvzvvjezbanej02
             }
             Console.WriteLine(s);
         }
+
+        public static int faktorijel(int broj)
+        {
+            if (broj == 1)
+            {
+                return broj;
+            }
+            return broj * faktorijel(broj-1);
+        }
+
     }
 }
