@@ -9,12 +9,14 @@ namespace LjetniRad
 {
     internal class Izbornik
     {
-        private ObradaSmjer ObradaSmjer;
-        private ObradaPolaznik ObradaPolaznik;
+        public ObradaSmjer ObradaSmjer { get; }
+        public ObradaPolaznik ObradaPolaznik { get; }
+        private ObradaGrupa ObradaGrupa;
         public Izbornik() 
         {
             ObradaSmjer = new ObradaSmjer();
             ObradaPolaznik= new ObradaPolaznik();
+            ObradaGrupa= new ObradaGrupa(this);
             PozdravnaPoruka();
             PrikaziIzbornik();
         }
@@ -48,7 +50,7 @@ namespace LjetniRad
                     PrikaziIzbornik();
                     break;
                 case 3:
-                    Console.WriteLine("rad s grupama");
+                    ObradaGrupa.PrikaziIzbornik();
                     PrikaziIzbornik();
                     break;
                 case 4:

@@ -18,8 +18,11 @@ namespace LjetniRad
         public ObradaSmjer() 
         {
             Smjerovi = new List<Smjer>();
-            TestniPodaci();
-            
+            if (Pomocno.DEV)
+            {
+                TestniPodaci();
+            }
+          
             
         } 
         public void PrikaziIzbornik()
@@ -42,12 +45,49 @@ namespace LjetniRad
                     UnosNovogSmjera();
                     PrikaziIzbornik();
                     break;
+                case 3:
+                    PromjenaSmjera();
+                    PrikaziIzbornik();
+                    break;
+                case 4:
+                    if (Smjerovi.Count == 0)
+                    {
+                        Console.WriteLine("Nema smjerova za brisanje");
+                    }
+                    else
+                    {
+                        BrisanjeSmjera();
+                    }
+                   
+                    PrikaziIzbornik();
+                    break;
 
                 case 5:
                     Console.WriteLine("Gotov rad s smjerovima");
                     break;
             }
 
+        }
+
+        private void BrisanjeSmjera()
+        {
+            PrikaziSmjerove();
+            int broj = Pomocno.UcitajBrojRaspon("Odaberi redni broj smjera za brisanje: ", "nije dobro", 1, Smjerovi.Count());
+            Smjerovi.RemoveAt(broj - 1);
+
+        }
+
+        private void PromjenaSmjera()
+        {
+            PrikaziSmjerove();
+            int broj = Pomocno.UcitajBrojRaspon("Odaberi redni broj smjera za obradu: ", "nije dobro", 1, Smjerovi.Count());
+            var s = Smjerovi[broj - 1];
+
+            s.Sifra = Pomocno.UcitajCijeliBroj("Unesite šifru smijera("+s.Sifra+"):",
+                "Unos mora biti pozitivni cijeli  broj");
+            s.Naziv = Pomocno.UcitajString("Unesite naziv smjera(" + s.Naziv + "): ", "Unos obavezan");
+            s.Trajanje = Pomocno.UcitajCijeliBroj("Unesi trajanje smjera u satima("+s.Trajanje+ "): ",
+                "Unos mora biti cijeli pozitivni broj");
         }
 
         private void UnosNovogSmjera()
@@ -61,16 +101,24 @@ namespace LjetniRad
             Smjerovi.Add(s);
         }
 
-        private void PrikaziSmjerove()
+        public void PrikaziSmjerove()
         {
+            Console.WriteLine();
+            Console.WriteLine("------Dostupni smjerovi------");
+            Console.WriteLine("-----------------------");
+            int b = 1;
             foreach(Smjer smjer in Smjerovi)
             {
-                Console.WriteLine(smjer.Naziv);
+                Console.WriteLine("\t{0}. {1}",b++,smjer.Naziv);
             }
+            Console.WriteLine("-----------------------");
         }
         private void TestniPodaci()
         {
             Smjerovi.Add(new Smjer() { Naziv="web programiranje" });
+            Smjerovi.Add(new Smjer() { Naziv = "Java programiranje" });
+            Smjerovi.Add(new Smjer() { Naziv = "web dizajn" });
+
         }
     }
 }

@@ -14,7 +14,15 @@ namespace LjetniRad
         public ObradaPolaznik() 
         {
             Polaznici=new List<Polaznik>();
+            TestniPodaci();
         }
+
+        private void TestniPodaci()
+        {
+            Polaznici.Add(new Polaznik() { Ime = "Marija", Prezime = "Zimska" });
+            Polaznici.Add(new Polaznik() { Ime = "Goran", Prezime = "keckes" });
+        }
+
         public void PrikaziIzbornik()
         {
             Console.WriteLine("izbornik za rad s polaznicima");
@@ -41,11 +49,13 @@ namespace LjetniRad
             }
         }
 
-        private void PregledPoalznika()
+        public void PregledPoalznika()
         {
+            int b = 1;
             foreach(Polaznik polaznik in  Polaznici)
             {
-                Console.WriteLine(polaznik);
+                Console.WriteLine("\t{0}. {1}",b++,polaznik);
+                
             }
         }
 
