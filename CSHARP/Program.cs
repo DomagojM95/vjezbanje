@@ -3,7 +3,7 @@
 using System.Threading.Channels;
 using bzvzvezbanje10;
 
-int KlasicnaMetoda(int b)
+ int KlasicnaMetoda(int b)
 {
     return b * b;
 }

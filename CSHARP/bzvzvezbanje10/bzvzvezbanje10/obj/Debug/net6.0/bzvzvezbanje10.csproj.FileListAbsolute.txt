@@ -13,3 +13,11 @@ C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\Zavrsni\CSHARP\bz
 C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\Zavrsni\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\bzvzvezbanje10.pdb
 C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\Zavrsni\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\bzvzvezbanje10.genruntimeconfig.cache
 C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\Zavrsni\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\ref\bzvzvezbanje10.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\bzvzvezbanje10.csproj.AssemblyReference.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\bzvzvezbanje10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\bzvzvezbanje10.AssemblyInfoInputs.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\bzvzvezbanje10.AssemblyInfo.cs
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\bzvzvezbanje10.csproj.CoreCompileInputs.cache
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\bzvzvezbanje10.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\refint\bzvzvezbanje10.dll
+C:\Users\38599\OneDrive\Documents\SQL Server Management Studio\vjezbanje\CSHARP\bzvzvezbanje10\bzvzvezbanje10\obj\Debug\net6.0\bzvzvezbanje10.pdb

@@ -83,3 +83,5 @@ var smjerovi= new List<Smjer>() {
 smjerovi.ForEach(Console.WriteLine);
 
 
+
+
