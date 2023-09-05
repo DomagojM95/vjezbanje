@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using EdunovaApp.Models;
+using EdunovaApp.Data;
 
 namespace EdunovaApp.Controllers
 {
@@ -8,16 +9,24 @@ namespace EdunovaApp.Controllers
     [Route("api/v1/[controller]")]
     public class SmjerController:ControllerBase
     {
+
+
+        private readonly EdunovaContext _context;
+
+        public SmjerController(EdunovaContext context)
+        {
+            _context = context;
+        }
+
+
         [HttpGet]
         public IActionResult Get()
         {
-            var lista = new List<Smjer>()
-            {
-                new (){Naziv="prvi"},
-                new (){Naziv="Drugi"}
-            };
-            return new JsonResult(lista);
+            
+            return new JsonResult(_context.Smjer.ToList());
         }
+
+
         [HttpPost]
         public IActionResult Post(Smjer smjer)
         {
