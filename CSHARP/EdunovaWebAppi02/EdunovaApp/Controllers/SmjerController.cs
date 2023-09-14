@@ -137,86 +137,19 @@ namespace EdunovaApp.Controllers
             }
             catch (Exception ex)
             {
+                
+                return new JsonResult("{\"poruka\":\"Ne može se obrisati\"}");
 
-                try
-                {
-                    SqlException sqle=(SqlException)ex;
-                    return StatusCode(StatusCodes.Status503ServiceUnavailable, sqle);
-                }
-                catch (Exception e)
-                {
+            }
 
-                    
-                }
-
-                return StatusCode(StatusCodes.Status503ServiceUnavailable, ex);
+                
             }
         }
-        [HttpGet]
-        [Route("unosubazu")]
+        
 
-        public string UnosUbazu()
-        {
-            Smjer s;
-            for(int i = 0; i < 1000; i++)
-            {
-                //s = new()
-                //{
-                //    Naziv = "iz koda" + i,
-                //    Trajanje = i
-                //};
-
-                s = new()
-                {
-                    Naziv = Faker.Company.Name(),
-                    Trajanje=Faker.RandomNumber.Next(130,320),
-                    Cijena=Faker.Finance.Coupon(),
-                    Upisnina=Faker.Finance.Coupon(),
-                    Verificiran=Faker.Boolean.Random()
-                    
-                };
-                _context.Smjer.Add(s);
-            }
-            _context.SaveChanges();
-            return "OK";
-        }
-
-        [HttpGet]
-        [Route("unosubazuV2")]
-
-        public string parni()
-        {
-            var smjerovi = _context.Smjer.ToList();
-
-            foreach(var s in smjerovi)
-            {
-                if (s.Sifra % 2 == 0)
-                {
-                    s.Naziv += "Mjenjao";
-                    _context.Smjer.Update(s);
-                }
-            }
-            _context.SaveChanges();
-
-            return "OK";
-
-        }
-
-        [HttpGet]
-        [Route("zadatak3")]
-        public string suma()
-        {
-            var  smjerovi=_context.Smjer.ToList();
-
-            for(int i = 0; i < smjerovi.Count; i++)
-            {
-                var suma = i + i;
-
-                return suma.ToString();
-
-            }
+        
             
         }
-    }
+    
 
-}
+
